@@ -7,51 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="cat-shadow-icon.png">  
-    
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="cat-shadow-icon.png">
+
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
     <!-- FontAwesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
-    
+
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
     <!-- github calendar css -->
     <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
-    <!-- github acitivity css -->    
+    <!-- github acitivity css -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
-    
-    <!-- Theme CSS -->  
+
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    
-</head> 
+
+</head>
 
 <body>
-    <!-- ******HEADER****** --> 
+    <!-- ******HEADER****** -->
     <header class="header">
-        <div class="container clearfix">                       
+        <div class="container clearfix">
             <img class="profile-image img-fluid float-left" src="assets/images/Marie.png" alt="James Lee" />
             <div class="profile-content float-left">
                 <h1 class="name">Marie Le Guilly</h1>
-                <h2 class="desc">Phd. Student at <a href="https://www.insa-lyon.fr/">INSA Lyon</a> with <a href="http://liris.cnrs.fr/">LIRIS Lab</a></h2>   
-		<h2 class="desc">Engineer in Computer Science from INSA Lyon</h2>
+                <h2 class="desc">Phd. Student at <a href="https://www.insa-lyon.fr/">INSA Lyon</a> with <a href="http://liris.cnrs.fr/">LIRIS Lab</a></h2>
+		            <h2 class="desc">Engineer in Computer Science from INSA Lyon</h2>
                 <!--<ul class="social list-inline">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>                   
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>    
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   
-                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
+                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>
                 </ul> -->
             </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="assets/cv.pdf" target="_blank"><i class="fa fa-download"></i> Download CV</a>                         
+            <a class="btn btn-cta-primary " href="assets/cv_short.pdf" target="_blank"><i class="fa fa-download"></i> Download short CV</a>
+            <a class="btn btn-cta-primary float-right" href="assets/cv_detail.pdf" target="_blank"><i class="fa fa-download"></i> Download detailed CV</a>
+
         </div><!--//container-->
+
     </header><!--//header-->
-    
+
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-lg-8 col-12">
@@ -59,10 +62,10 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I'm Marie Le Guilly, a french PHD student in computer science. I work at the intersection between databases and machine learning, in order to provide new data exploration solution to users. I also teach programming at INSA Lyon. </p>
-                         
+                            <p>I'm Marie Le Guilly, a french PHD student in computer science. I work on databases and machine learning, to improve data selection for building more accurate predictive models. </p>
+                            <p>I'm currently looking for a data scientist position, for the autumn 2020</p>
                         </div><!--//content-->
-                    </div><!--//section-inner-->                 
+                    </div><!--//section-inner-->
                 </section><!--//section-->
 
 		<section class="about section">
@@ -70,18 +73,21 @@
                         <h2 class="heading">About My PhD</h2>
                         <div class="content">
 			<h5>Title</h5>
-			<p>Interactive query lanquages for data exploration using machine learning principles</p>
+			<p>Guide data selection for predictive models</p>
 
-			 
+
 
 			<h5>Abstract</h5>
-	
-                            <p>This PhD aims at developing new approaches for interactive big data exploration by revisiting classical database approaches due to prohibitive running times, memory consumption, and volumes of the outputs. The key idea is to consider the data analyst as an essential link in the data exploration process, without making any hypothesis neither on the size of the data space nor on the size of the pattern space to be analyzed. We intend to guide and help the data analyst to both elicit zones of interest in the data space and to navigate in the pattern space, based on declarative approaches originating from database and artificial intelligence. We plan to propose high-level prototypes (e.g. from declarative languages or convenient user interfaces) to data analysts, hiding as much as possible the inherent complexity of big data analytics. An example of this is a SQL query completion prototype aiming at guiding databases exploration by suggesting possible completions for a given SQL query.</p>
-                         
+
+                            <p>Databases and machine learning (ML) have historically evolved as two separate domains: while databases are used to store and query the data, ML is devoted to predictive models inference, clustering, etc. Despite its apparent simplicity, the “data preparation” step of ML applications turns out to be the most time-consuming step in practice. Interestingly this step encompasses the bridge between databases and ML.
+In this setting, we raise and address three main problems related to data selection for building predictive models. First, the database usually contains more than the data of interest: how to separate the data that the analyst wants from the one she does not want? We propose to see this problem as imbalanced classification between the tuples of interest and the rest of the database. We develop an undersampling method based on the functional dependencies of the database.
+Second, we discuss the writing of the query returning the tuples of interest. We propose a SQL query completion solution based on data semantics, that starts from a very general query, and helps an analyst to refine it until she selects her data of interest. This process aims at helping the analyst to design the query that will eventually select the data she requires.
+Third, assuming the data has successfully been extracted from the database, the next natural question follows: is the selected data suited to answer the considered ML problem?  Since getting a predictive model from the features to the class to predict amounts to providing a function, we point out that it makes sense to first assess the existence of that function in the data. This existence can be studied through the prism of functional dependencies, and we show how they can be used to understand a model’s limitation, and to refine the initial data selection if necessary. </p>
+
                         </div><!--//content-->
-                    </div><!--//section-inner-->                 
+                    </div><!--//section-inner-->
                 </section><!--//section-->
-    
+
                <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Professional Experience</h2>
@@ -103,10 +109,30 @@
                                             </span>
                                         </h3>
                                         <p>
-                                            Interactive query languages for data exploration using machine learning techniques
+                                            Guided data selection for predictive models
                                         </p>
                                     </div><!--//desc-->
                                 </div><!--//item-->
+                                <div class="item row">
+                                  <a class="col-md-4 col-sm-4 col-xs-12" href="https://uwaterloo.ca/data-systems-group/" target="_blank">
+                                      <img class="img-responsive project-image" src="assets/images/dsg.png" alt="INSA-Lyon" />
+                                  </a>
+                                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                      <h3 class="title">Research internship during PhD
+                                          <span class="place">
+                                              <a href="https://uwaterloo.ca/data-systems-group/">Univeristy of Waterloo</a>
+                                              with
+                                              <a href="http://liris.cnrs.fr/">LIRIS Lab</a>
+                                          </span>
+                                          <span class="year">
+                                              <br>September 2018 - November 2018
+                                          </span>
+                                      </h3>
+                                      <p>
+                                          Research internship at the Data Systems group, with Prof. Ihab Ilyas
+                                      </p>
+                                  </div><!--//desc-->
+                              </div><!--//item-->
                                   <div class="item row">
                                     <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.insa-lyon.fr/" target="_blank">
                                      <img class="img-responsive project-image" src="assets/images/insa.jpg" alt="INSA-Lyon" />
@@ -156,6 +182,19 @@
                                 </div><!--//desc-->
                             </div><!--//item-->
 
+                            <div class="item row">
+                          <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.idemia.com/fr" target="_blank">
+                          <img class="img-responsive project-image" src="assets/images/idemia.jpg" alt="INSA-Lyon" />
+                          </a>
+                          <div class="desc col-md-8 col-sm-8 col-xs-12">
+                         <h3 class="title">
+                           Research Intern -
+                           <span class="place"><a href="https://www.idemia.com/fr">Morpho (Safran)</a> </span> <span class="year">
+                             <br>June 2015 - August 2015</span></h3>
+                        <p> Development of a test platform for biometric data</p>
+                          </div><!--//desc-->
+                      </div><!--//item-->
+
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
@@ -167,21 +206,36 @@
                     <div class="section-inner">
                         <h2 class="heading">Publications</h2>
                         <div class="content">
-			<h3 class="title">2018</h3>
+			                         <h3 class="title">Journals</h3>
 
+			                            <div class="item">
+                                    <p> Evaluating classification feasibility using functional dependencies, Marie Le Guilly, Jean-Marc Petit and Vasile-Marian Scuturici, Transactions on Large-Scale Data and Knowledge-Centered Systems (TLDKS), 27 pages  (to appear)</p>
+                                      <p>A First Experimental Study on Functional Dependencies for Imbalanced Datasets Classification, Marie Le Guilly, Jean-Marc Petit and Vasile-Marian Scuturici, « Communications in Computer and Information Science » series, Springer, Revised Selected Papers from the International Workshop ISIP, Japan, 2018, 17 pages</p>
+
+                                  </div><!--//item-->
+
+			<h3 class="title">International conferences</h3>
 			<div class="item">
-                             <p> Marie Le Guilly, Ihab F. Ilyas, Jean-Marc Petit & Vasile-Marian Scuturici (2018). « Partitioning queries for data exploration using query extension ». BDA 2018 34ème conférence sur la Gestion de Données — Principes, Technologies et Applications, October 2018, Bucarest (Romania).</p> 
-
+                      <p>Contextualisation of Datasets for better classification models: Application to Lyon Airbus Helicopters Flight Data 2020, Marie Le Guilly, Daouayry Nassia, Pierre-Loic Maisonneuve, Ammar Mechouche, Jean-Marc Petit and Marian Scuturici, 24th European Conference on Advances in Databases and Information Systems (ADBIS), 10 pages (to appear)</p>
+                      <p>Attempt to better trust classification models: Application to the Ageing of Refrigerated Graz Transport Vehicles (industrial paper), Marie Le Guilly, Claudia Capo, Marian Scuturici, Jean Marc Petit, Rémi Revellin, Jocelyn Bonjour, Gérald Cavalier 25th International Symposium on Methodologies for Intelligent Systems (ISMIS’20), 10 pages (to appear)</p>
+                      <p>ExplIQuE: Interactive Databases Exploration with SQL (demo paper), Marie Le Guilly, Jean-Marc Petit, Vasile-Marian Scuturici and Ihab Ilyas, 28th ACM International Conference on Information and Knowledge Management, CIKM 2019, China, 2019, 4 pages</p>
+                      <p>Ageing of refrigerated transport vehicles: development of a numerical predictive model, Marie Le Guilly, Claudia Capo, Léo Pape, Marian Scuturici, Jean Marc Petit, Rémi Revellin, Jocelyn Bonjour, Gérald Cavalier, 6th IIR conference on sustainability and the cold chain, 9 pages (to appear)</p>
                          </div><!--//item-->
 
-			<h3 class="title">2017</h3>
-			<div class="item">
-                             <p> Marie Le Guilly, Jean-Marc Petit & Vasile-Marian Scuturici (2017). « Retour d'expérience sur l'analyse des données d'un tunnelier ». BDA 2017 33ème conférence sur la Gestion de Données — Principes, Technologies et Applications, 14 novembre 2017, Nancy (France). <span class="place"><a href="https://hal.archives-ouvertes.fr/hal-01686296">Short Paper</a></p>
-                         </div><!--//item-->
 
-                          <div class="item">
-                             <p> Marie Le Guilly (2017). « Langages de requêtes interactifs pour l'exploration de données ». BDA, 14 novembre 2017, Nancy (France). <span class="place"><a href="https://hal.archives-ouvertes.fr/hal-01693695">PhD Workshop paper</a></p>
-                         </div><!--//item-->
+      <h3 class="title">National conferences</h3>
+      <div class="item">
+          <p>Evaluation de la faisabilité de classification en utilisant les dépendances fonctionnelles, Marie Le Guilly, Jean-Marc Petit and Vasile-Marian Scuturici, BDA 2019, 35ème conférence sur la Gestion de Données — Principes, Technologies et Applications, 12 pages</p>
+          <p>ExplIQuE : Exploration Interactive de Bases de Données en SQL, Marie Le Guilly, Jean-Marc Petit, Vasile-Marian Scuturici and Ihab Ilyas, BDA 2019 35ème conférence sur la Gestion de Données — Principes, Technologies et Applications, 4 pages</p>
+          <p>Partitioning queries for data exploration using query extensions, Marie Le Guilly, Ihab Ilyas, Jean-Marc Petit and Vasile-Marian Scuturici, BDA 2018, 34ème conférence sur la Gestion de Données — Principes, Technologies et Applications</p>
+          <p>Langages de requêtes interactifs pour l’exploration de données, Marie Le Guilly, BDA 2017, 33ème conférence sur la Gestion de Données — Principes, Technologies et Applications (article Doctorant)</p>
+          <p>Retour d’expérience sur l’analyse des données d’un tunnelier, Marie Le Guilly, Jean-Marc Petit, Vasile-Marian Scuturici, BDA 2017 33ème conférence sur la Gestion de Données — Principes, Technologies et Applications</p>
+      </div>
+
+      <h3 class="title">Patents</h3>
+      <div class="item">
+        <p>Completion de requêtes SQL ; Marie Le Guilly, Jean-Marc Petit, Vasile-Marian Scuturici, French patent FR1757682</p>
+      </div>
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
