@@ -37,7 +37,8 @@
             <img class="profile-image img-fluid float-left" src="assets/images/Marie.png" alt="James Lee" />
             <div class="profile-content float-left">
                 <h1 class="name">Marie Le Guilly, PhD</h1>
-                <h2>PhD and Engineer in Computer science from <a href="https://www.insa-lyon.fr/">INSA Lyon</a></h2>
+                <h2>Trainer/Teacher at <a href="https://www.eni-ecole.fr/">ENI Ecole</a> </h2>
+                <h3>PhD and Engineer in Computer science from <a href="https://www.insa-lyon.fr/">INSA Lyon</a></h3>
                 <h3>Interested in Machine Learning, Databases, and data science</h3>
                 <!--<h2 class="desc">Phd. Student at <a href="https://www.insa-lyon.fr/">INSA Lyon</a> with <a href="http://liris.cnrs.fr/">LIRIS Lab</a></h2>-->
 		            <!--<h2 class="desc">Engineer in Computer Science from INSA Lyon</h2>-->
@@ -49,9 +50,11 @@
                     <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
                     <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>
                 </ul> -->
+                <a class="btn btn-cta-primary " href="assets/cv_ENI.pdf" target="_blank"><i class="fa fa-download"></i> Télécharger le CV en Français</a>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary " href="assets/cv_short.pdf" target="_blank"><i class="fa fa-download"></i> Download short CV</a>
-            <a class="btn btn-cta-primary float-right" href="assets/cv_detail.pdf" target="_blank"><i class="fa fa-download"></i> Download detailed CV</a>
+            
+            <!--<a class="btn btn-cta-primary " href="assets/cv_short.pdf" target="_blank"><i class="fa fa-download"></i> Download short CV</a>
+            <a class="btn btn-cta-primary float-right" href="assets/cv_detail.pdf" target="_blank"><i class="fa fa-download"></i> Download detailed CV</a>-->
 
         </div><!--//container-->
 
@@ -64,38 +67,59 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I'm Marie Le Guilly, data science doctor. I work on databases and machine learning, to improve data selection for building more accurate predictive models. I currently work at Heverett Group, supervising innovative project on data science.</p>
+                            <p>I'm Marie Le Guilly, currently working as a computer science teacher. After a few years as a data science researcher, I decided to dedicate my carreer to share my knowledge on the topics I'm passionnate about.
+                                My main interest is on artifical intelligence and machine learning with Python, but I also teach and create lessons on Java programming, databases and mathematics.
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
 
-		<section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About My PhD</h2>
-                        <div class="content">
-			<h5>Title</h5>
-			<p>Guide data selection for predictive models (<a href="assets/manuscrit_final_Le_Guilly.pdf" target="_blank">Link to dissertation</a>)
 
-      </p>
-
-
-
-			<h5>Abstract</h5>
-
-                            <p>Databases and machine learning (ML) have historically evolved as two separate domains: while databases are used to store and query the data, ML is devoted to predictive models inference, clustering, etc. Despite its apparent simplicity, the “data preparation” step of ML applications turns out to be the most time-consuming step in practice. Interestingly this step encompasses the bridge between databases and ML.
-In this setting, we raise and address three main problems related to data selection for building predictive models. First, the database usually contains more than the data of interest: how to separate the data that the analyst wants from the one she does not want? We propose to see this problem as imbalanced classification between the tuples of interest and the rest of the database. We develop an undersampling method based on the functional dependencies of the database.
-Second, we discuss the writing of the query returning the tuples of interest. We propose a SQL query completion solution based on data semantics, that starts from a very general query, and helps an analyst to refine it until she selects her data of interest. This process aims at helping the analyst to design the query that will eventually select the data she requires.
-Third, assuming the data has successfully been extracted from the database, the next natural question follows: is the selected data suited to answer the considered ML problem?  Since getting a predictive model from the features to the class to predict amounts to providing a function, we point out that it makes sense to first assess the existence of that function in the data. This existence can be studied through the prism of functional dependencies, and we show how they can be used to understand a model’s limitation, and to refine the initial data selection if necessary. </p>
-
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
 
                <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Professional Experience</h2>
                             <div class="content">
+
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.eni-ecole.fr/" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/logo_eni.png" alt="INSA-Lyon" />
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title">Trainer -
+                                            <span class="place">
+                                                <a href="https://www.eni-ecole.fr/">ENI Ecole Informatique</a>
+                                            </span>
+                                            <span class="year">
+                                                <br>January 2022 - Present
+                                            </span>
+                                        </h3>
+                                        <p>
+                                            Teacher for computer science students
+                                        </p>
+                                    </div><!--//desc-->
+                                </div><!--//item-->
+
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="http://liris.cnrs.fr/" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/liris.png" alt="INSA-Lyon" />
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title">PostDoc -
+                                            <span class="place">
+                                                <a href="https://www.univ-lyon1.fr/">Université Lyon 1</a>
+                                                with
+                                                <a href="http://liris.cnrs.fr/">LIRIS Lab</a>
+                                            </span>
+                                            <span class="year">
+                                                <br>2021
+                                            </span>
+                                        </h3>
+                                        <p>
+                                            Apprentissage automatique pour la cybersécurité
+                                        </p>
+                                    </div><!--//desc-->
+                                </div><!--//item-->
 
                                   <div class="item row">
                                     <a class="col-md-4 col-sm-4 col-xs-12" href="http://liris.cnrs.fr/" target="_blank">
@@ -109,7 +133,7 @@ Third, assuming the data has successfully been extracted from the database, the 
                                                 <a href="http://liris.cnrs.fr/">LIRIS Lab</a>
                                             </span>
                                             <span class="year">
-                                                <br>September 2017 - Present
+                                                <br>September 2017 - September 2020
                                             </span>
                                         </h3>
                                         <p>
@@ -203,8 +227,56 @@ Third, assuming the data has successfully been extracted from the database, the 
                     </div><!--//section-inner-->
                 </section><!--//section-->
 
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Talks</h2>
+                        <div class="content">
+
+			<div class="item">
+                                <div class="item">
+                               <h3 class="title">
+                                 May 2018
+                                 <span class="place"><a href="https://sites.google.com/view/isip2018">ISIP Workshop (Fukuoka, Japan)</a> </span> <span class="year">
+                                   </span></h3>
+                              <p> Could Functional Dependencies Help to Identify Balanced Classification Datasets ?</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+			<div class="item">
+                                <div class="item">
+                               <h3 class="title">
+                                 September 2017
+                                 <span class="place"><a href="https://zimmermanna.users.greyc.fr/projects/decade.html">Decade Symposium (Lyon, France)</a> </span> <span class="year">
+                                   </span></h3>
+                              <p> SQL query completion for data exploration</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About My PhD</h2>
+                        <div class="content">
+			<h5>Title</h5>
+			<p>Guide data selection for predictive models (<a href="assets/manuscrit_final_Le_Guilly.pdf" target="_blank">Link to dissertation</a>)
+
+      </p>
 
 
+
+			<h5>Abstract</h5>
+
+                            <p>Databases and machine learning (ML) have historically evolved as two separate domains: while databases are used to store and query the data, ML is devoted to predictive models inference, clustering, etc. Despite its apparent simplicity, the “data preparation” step of ML applications turns out to be the most time-consuming step in practice. Interestingly this step encompasses the bridge between databases and ML.
+In this setting, we raise and address three main problems related to data selection for building predictive models. First, the database usually contains more than the data of interest: how to separate the data that the analyst wants from the one she does not want? We propose to see this problem as imbalanced classification between the tuples of interest and the rest of the database. We develop an undersampling method based on the functional dependencies of the database.
+Second, we discuss the writing of the query returning the tuples of interest. We propose a SQL query completion solution based on data semantics, that starts from a very general query, and helps an analyst to refine it until she selects her data of interest. This process aims at helping the analyst to design the query that will eventually select the data she requires.
+Third, assuming the data has successfully been extracted from the database, the next natural question follows: is the selected data suited to answer the considered ML problem?  Since getting a predictive model from the features to the class to predict amounts to providing a function, we point out that it makes sense to first assess the existence of that function in the data. This existence can be studied through the prism of functional dependencies, and we show how they can be used to understand a model’s limitation, and to refine the initial data selection if necessary. </p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
 
                 <section class="experience section">
                     <div class="section-inner">
@@ -250,58 +322,6 @@ Third, assuming the data has successfully been extracted from the database, the 
                 </section><!--//section-->
 
 
-			<section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Talks</h2>
-                        <div class="content">
-
-			<div class="item">
-                                <div class="item">
-                               <h3 class="title">
-                                 May 2018
-                                 <span class="place"><a href="https://sites.google.com/view/isip2018">ISIP Workshop (Fukuoka, Japan)</a> </span> <span class="year">
-                                   </span></h3>
-                              <p> Could Functional Dependencies Help to Identify Balanced Classification Datasets ?</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-			<div class="item">
-                                <div class="item">
-                               <h3 class="title">
-                                 September 2017
-                                 <span class="place"><a href="https://zimmermanna.users.greyc.fr/projects/decade.html">Decade Symposium (Lyon, France)</a> </span> <span class="year">
-                                   </span></h3>
-                              <p> SQL query completion for data exploration</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
-
-
-
-
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">Technical Skills</h2>
-                        <div class="content">
-                          <div class="item">
-                              <h3 class="title">Programming</h3>
-                              <p class="summary">Python, Java, C/C++</p>
-                          </div><!--//item-->
-                          <div class="item">
-                              <h3 class="title">Databases</h3>
-                              <p class="summary">PL/SQL, MysQL, Oracle</p>
-                          </div><!--//item-->
-
-                          <div class="item">
-                              <h3 class="title">Tools</h3>
-                              <p class="summary">Latex, Git, SVN</p>
-                          </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
 
 
 
@@ -316,11 +336,11 @@ Third, assuming the data has successfully been extracted from the database, the 
 
                  <aside class="info aside section">
                     <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
+                        <h2 class="heading sr-only">Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><a href="https://goo.gl/maps/YeoJsowiPzp">Lyon, France</a></li>
-                                <li><i class="fa fa-envelope"></i><span class="sr-only">Email:</span><a href="marie.le-guilly@insa-lyon">marie.le-guilly@insa-lyon.fr</a></li>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><a href="https://goo.gl/maps/JoZtH5DaUbUfd5er6">Nantes, France</a></li>
+                                <!--<li><i class="fa fa-envelope"></i><span class="sr-only">Email:</span><a href="marie.le-guilly@insa-lyon">marie.le-guilly@insa-lyon.fr</a></li>-->
                                 <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="https://marieLGY.github.io">https://marieLGY.github.io</a></li>
                             </ul>
                         </div><!--//content-->
@@ -330,6 +350,10 @@ Third, assuming the data has successfully been extracted from the database, the 
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
+                            <div class="item">
+                                <h3 class="title"> <i class="fa fa-graduation-cap"></i> PhD</h3>
+                                <h4 class="university">INSA Lyon<span class="year"><br>2017-2020</span></h4>
+                            </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"> <i class="fa fa-graduation-cap"></i> Computer Science Engineer</h3>
                                 <h4 class="university">INSA Lyon<span class="year"><br>2012-2017</span></h4>
@@ -342,21 +366,27 @@ Third, assuming the data has successfully been extracted from the database, the 
                     </div><!--//section-inner-->
                 </aside><!--//section-->
 
-                <aside class="education aside section">
+                <section class="projects section">
                     <div class="section-inner">
-                        <h2 class="heading">Teaching</h2>
+                        <h2 class="heading">Technical Skills</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-book"></i> Programming</h3>
-                                <h4 class="university">Introduction to programming <span class="year"><br>1st year bachelor students</span></h4>
+                                <h3 class="title">Programming</h3>
+                                <p class="summary">Python, Java, C/C++</p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-book"></i> Advanced java programming</h3>
-                                <h4 class="university">Object oriented programming and user interfaces <span class="year"><br>1st and 2nd year bachelor students</span></h4>
-                            </div><!--//item->
+                                <h3 class="title">Databases</h3>
+                                <p class="summary">PL/SQL, MysQL, Oracle</p>
+                            </div><!--//item-->
+        
+                            <div class="item">
+                                <h3 class="title">Tools</h3>
+                                <p class="summary">Latex, Git, SVN</p>
+                            </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
-                </aside><!--//section-->
+                </section><!--//section-->
+
 
                 <aside class="languages aside section">
                     <div class="section-inner">
